@@ -4243,7 +4243,7 @@ img.u-pull-left {
 .cursor-follower {
     width: 20px;
     height: 20px;
-    border: 2px solid var(--color-1);
+    border: 2px solid #f4a0b0;
     border-radius: 50%;
     position: fixed;
     pointer-events: none;

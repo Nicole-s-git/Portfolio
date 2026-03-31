@@ -3441,12 +3441,26 @@ img.u-pull-left {
 }
 
 .about-expertise .skills-list li {
-    display      : inline-block;
-    padding-left : 0;
+    display          : inline-block;
+    padding-left     : 0;
+    background-color : transparent;
+    border           : 1px solid var(--color-1);
+    color            : var(--color-1);
+    padding          : 0.5rem 1.5rem;
+    border-radius    : 100px;
+    margin           : 0.4rem;
+    font-size        : var(--text-sm);
+    transition       : all 0.3s ease;
+}
+
+.about-expertise .skills-list li:hover {
+    background-color : var(--color-1);
+    color            : var(--color-black);
+    transform        : translateY(-2px);
 }
 
 .about-expertise .skills-list li:not(:last-child)::after {
-    content : ", ";
+    content : "";
 }
 
 /* --------------------------------------------------------------------

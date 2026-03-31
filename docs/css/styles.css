@@ -4238,3 +4238,15 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+/* cursor follower */
+.cursor-follower {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-1);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    z-index: 9999;
+}

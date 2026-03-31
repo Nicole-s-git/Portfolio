@@ -3451,6 +3451,8 @@ img.u-pull-left {
     margin           : 0.4rem;
     font-size        : var(--text-sm);
     transition       : all 0.3s ease;
+    min-width        : 120px;
+    text-align       : center;
 }
 
 .about-expertise .skills-list li:hover {
